@@ -1,12 +1,35 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "About"
-    url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "365 CHALLENGES"
+    url: /365-challenges/
+  - title: "SWIFT"
+    url: /swift/
+  - title: "REACT"
+    url: /react/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+sidebar-swift:
+  - title: "UIKit"
+    children:
+      - title: "No Storyboard"
+        url: /swift/uikit-no-storyboard
+      - title: ""
+        url: /swift/
+      - title: ""
+        url: /swift/
+      - title: ""
+        url: /swift/
+
+sidebar-react:
+  - title: "React"
+    children:
+      - title: "Props"
+        url: /react/
+      - title: ""
+        url: /react/
+      - title: ""
+        url: /react/
+      - title: ""
+        url: /react/

@@ -4,4 +4,4 @@ var store = [{
         "tags": ["content","css","edge case","lists","markup"],
         "url": "/edge%20case/something/",
         "teaser": null
-      }]
+      },]
