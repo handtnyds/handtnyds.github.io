@@ -9,81 +9,79 @@ toc: true
 toc_sticky: true
 
 ---
-this is swift page
 
-## HTML Elements
+### Home Project: Follower / UIKit
 
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+#### Ordered Lists
 
-## Body text
+* Initial Project Setup
+* App Navigation Setup
+* UITabBarController & UINavigationController
 
-Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
+#### SerchVC & Custom Alert
 
-![Smithsonian Image]({{ site.url }}{{ site.baseurl }}/assets/images/3953273590_704e3899d5_m.jpg)
-{: .image-right}
+* Custom Views - UIButton & UITextField
+* Search Screen UI (Programmatic)
+* Passing Data & Keyboards
+* Create Reusable Custom Alert
+* Project Organization & Architecture
 
-*This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+#### Networking
 
-HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
+* Planning our Network Calls - API, JSON, Model
+* Quick Bug Fix #1 
+* Create Network Call - Get Followers 
+* Refactor Error Messages 
+* Result Type Refactor 
 
-### Blockquotes
+#### CollectionView
 
-> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
+* UICollectionView - Custom Follower Cell
+* UICollectionView - Initial Setup 
+* UICollectionView - FlowLayout 
+* UICollectionView - Diffable Data Source 
+* ARC, Memory Leaks, and Capture Lists [weak self] 
+* Downloading & Caching Avatar Images 
+* Pagination - Getting the Next 100 Followers 
+* Loading View 
+* Empty State View
+* Search Functionality 
 
-## List Types
+#### User Info Screen
 
-### Ordered Lists
+* Modal Presentation & Passing Data 
+* Network Call - Get User Info 
+* User Info Screen Planning 
+* Child View Controller - UserInfoHeaderVC 
+* UserInfoVC Cleanup & Setup 
+* Item Info View 
+* ItemInfoVC - Superclass 
+* ItemInfoVC - Subclasses 
+* Date Conversions & Date Label 
+* Button Functionality - Delegates & Protocols 
 
-1. Item one
-   1. sub item one
-   2. sub item two
-   3. sub item three
-2. Item two
+#### Favorites Screen - Persistence
 
-### Unordered Lists
+* Persistence Overview & Add Button 
+* Persistence Manager 
+* PersistenceManager - Make it Work 
+* UITableView - Favorites Cell
+* UITableView - FavoritesVC 
 
-* Item one
-* Item two
-* Item three
+#### Clean Up & Optimization
 
-## Tables
+* UITabBarController, Screen Sizes, Constants & More
+* GFAlertVC, Convenience Init, DateDecoding, Networking Refactor 
+* Search, Pagination, Empty State, Constants & More
+* Variadic Parameters, Delegates & Protocols, Dynamic Type & More
+* Persistence Manager, UITableView Extension & Bug Fixes 
+* iPhone SE - UserInfoVC Fixes
+* The Final Pass 
 
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
-{: rules="groups"}
+#### iOS 15 Project Update
 
-## Code Snippets
-
-```css
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
-```
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-```html
-<a href="#" class="btn btn--success">Success Button</a>
-```
-
-<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--warning">Warning Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--danger">Danger Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--info">Info Button</a></div>
-
-## Notices
-
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}
+* Running the App on iOS 15 & Fixing Issues
+* New UIButton Configurations 
+* Refactoring Network Calls to Async/Await - Part 1
+* Refactoring Network Calls to Async/Await - Part 2
+* New Date Formatter (4:48)

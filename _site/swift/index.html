@@ -221,124 +221,102 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#html-elements">HTML Elements</a></li><li><a href="#body-text">Body text</a><ul><li><a href="#blockquotes">Blockquotes</a></li></ul></li><li><a href="#list-types">List Types</a><ul><li><a href="#ordered-lists">Ordered Lists</a></li><li><a href="#unordered-lists">Unordered Lists</a></li></ul></li><li><a href="#tables">Tables</a></li><li><a href="#code-snippets">Code Snippets</a></li><li><a href="#buttons">Buttons</a></li><li><a href="#notices">Notices</a></li></ul>
+              <ul class="toc__menu"><li><a href="#home-project-follower--uikit">Home Project: Follower / UIKit</a><ul><li><a href="#ordered-lists">Ordered Lists</a></li><li><a href="#serchvc--custom-alert">SerchVC &amp; Custom Alert</a></li><li><a href="#networking">Networking</a></li><li><a href="#collectionview">CollectionView</a></li><li><a href="#user-info-screen">User Info Screen</a></li><li><a href="#favorites-screen---persistence">Favorites Screen - Persistence</a></li><li><a href="#clean-up--optimization">Clean Up &amp; Optimization</a></li><li><a href="#ios-15-project-update">iOS 15 Project Update</a></li></ul></li></ul>
 
             </nav>
           </aside>
         
-        <p>this is swift page</p>
+        <h3 id="home-project-follower--uikit">Home Project: Follower / UIKit</h3>
 
-<h2 id="html-elements">HTML Elements</h2>
-
-<p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
-
-<h2 id="body-text">Body text</h2>
-
-<p>Lorem ipsum dolor sit amet, test link adipiscing elit. <strong>This is strong</strong>. Nullam dignissim convallis est. Quisque aliquam.</p>
-
-<p class="image-right"><img src="http://localhost:4000/assets/images/3953273590_704e3899d5_m.jpg" alt="Smithsonian Image" /></p>
-
-<p><em>This is emphasized</em>. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
-
-<p>HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.</p>
-
-<h3 id="blockquotes">Blockquotes</h3>
-
-<blockquote>
-  <p>Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.</p>
-</blockquote>
-
-<h2 id="list-types">List Types</h2>
-
-<h3 id="ordered-lists">Ordered Lists</h3>
-
-<ol>
-  <li>Item one
-    <ol>
-      <li>sub item one</li>
-      <li>sub item two</li>
-      <li>sub item three</li>
-    </ol>
-  </li>
-  <li>Item two</li>
-</ol>
-
-<h3 id="unordered-lists">Unordered Lists</h3>
+<h4 id="ordered-lists">Ordered Lists</h4>
 
 <ul>
-  <li>Item one</li>
-  <li>Item two</li>
-  <li>Item three</li>
+  <li>Initial Project Setup</li>
+  <li>App Navigation Setup</li>
+  <li>UITabBarController &amp; UINavigationController</li>
 </ul>
 
-<h2 id="tables">Tables</h2>
+<h4 id="serchvc--custom-alert">SerchVC &amp; Custom Alert</h4>
 
-<table rules="groups">
-  <thead>
-    <tr>
-      <th style="text-align: left">Header1</th>
-      <th style="text-align: center">Header2</th>
-      <th style="text-align: right">Header3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">cell1</td>
-      <td style="text-align: center">cell2</td>
-      <td style="text-align: right">cell3</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">cell4</td>
-      <td style="text-align: center">cell5</td>
-      <td style="text-align: right">cell6</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td style="text-align: left">cell1</td>
-      <td style="text-align: center">cell2</td>
-      <td style="text-align: right">cell3</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">cell4</td>
-      <td style="text-align: center">cell5</td>
-      <td style="text-align: right">cell6</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td style="text-align: left">Foot1</td>
-      <td style="text-align: center">Foot2</td>
-      <td style="text-align: right">Foot3</td>
-    </tr>
-  </tfoot>
-</table>
+<ul>
+  <li>Custom Views - UIButton &amp; UITextField</li>
+  <li>Search Screen UI (Programmatic)</li>
+  <li>Passing Data &amp; Keyboards</li>
+  <li>Create Reusable Custom Alert</li>
+  <li>Project Organization &amp; Architecture</li>
+</ul>
 
-<h2 id="code-snippets">Code Snippets</h2>
+<h4 id="networking">Networking</h4>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#container</span> <span class="p">{</span>
-  <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
-  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">-240px</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span>
-  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
+<ul>
+  <li>Planning our Network Calls - API, JSON, Model</li>
+  <li>Quick Bug Fix #1</li>
+  <li>Create Network Call - Get Followers</li>
+  <li>Refactor Error Messages</li>
+  <li>Result Type Refactor</li>
+</ul>
 
-<h2 id="buttons">Buttons</h2>
+<h4 id="collectionview">CollectionView</h4>
 
-<p>Make any link standout more when applying the <code class="language-plaintext highlighter-rouge">.btn</code> class.</p>
+<ul>
+  <li>UICollectionView - Custom Follower Cell</li>
+  <li>UICollectionView - Initial Setup</li>
+  <li>UICollectionView - FlowLayout</li>
+  <li>UICollectionView - Diffable Data Source</li>
+  <li>ARC, Memory Leaks, and Capture Lists [weak self]</li>
+  <li>Downloading &amp; Caching Avatar Images</li>
+  <li>Pagination - Getting the Next 100 Followers</li>
+  <li>Loading View</li>
+  <li>Empty State View</li>
+  <li>Search Functionality</li>
+</ul>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn--success"</span><span class="nt">&gt;</span>Success Button<span class="nt">&lt;/a&gt;</span>
-</code></pre></div></div>
+<h4 id="user-info-screen">User Info Screen</h4>
 
-<div><a href="#" class="btn">Primary Button</a></div>
-<div><a href="#" class="btn btn--success">Success Button</a></div>
-<div><a href="#" class="btn btn--warning">Warning Button</a></div>
-<div><a href="#" class="btn btn--danger">Danger Button</a></div>
-<div><a href="#" class="btn btn--info">Info Button</a></div>
+<ul>
+  <li>Modal Presentation &amp; Passing Data</li>
+  <li>Network Call - Get User Info</li>
+  <li>User Info Screen Planning</li>
+  <li>Child View Controller - UserInfoHeaderVC</li>
+  <li>UserInfoVC Cleanup &amp; Setup</li>
+  <li>Item Info View</li>
+  <li>ItemInfoVC - Superclass</li>
+  <li>ItemInfoVC - Subclasses</li>
+  <li>Date Conversions &amp; Date Label</li>
+  <li>Button Functionality - Delegates &amp; Protocols</li>
+</ul>
 
-<h2 id="notices">Notices</h2>
+<h4 id="favorites-screen---persistence">Favorites Screen - Persistence</h4>
 
-<p class="notice"><strong>Watch out!</strong> You can also add notices by appending <code class="language-plaintext highlighter-rouge">{: .notice}</code> to a paragraph.</p>
+<ul>
+  <li>Persistence Overview &amp; Add Button</li>
+  <li>Persistence Manager</li>
+  <li>PersistenceManager - Make it Work</li>
+  <li>UITableView - Favorites Cell</li>
+  <li>UITableView - FavoritesVC</li>
+</ul>
+
+<h4 id="clean-up--optimization">Clean Up &amp; Optimization</h4>
+
+<ul>
+  <li>UITabBarController, Screen Sizes, Constants &amp; More</li>
+  <li>GFAlertVC, Convenience Init, DateDecoding, Networking Refactor</li>
+  <li>Search, Pagination, Empty State, Constants &amp; More</li>
+  <li>Variadic Parameters, Delegates &amp; Protocols, Dynamic Type &amp; More</li>
+  <li>Persistence Manager, UITableView Extension &amp; Bug Fixes</li>
+  <li>iPhone SE - UserInfoVC Fixes</li>
+  <li>The Final Pass</li>
+</ul>
+
+<h4 id="ios-15-project-update">iOS 15 Project Update</h4>
+
+<ul>
+  <li>Running the App on iOS 15 &amp; Fixing Issues</li>
+  <li>New UIButton Configurations</li>
+  <li>Refactoring Network Calls to Async/Await - Part 1</li>
+  <li>Refactoring Network Calls to Async/Await - Part 2</li>
+  <li>New Date Formatter (4:48)</li>
+</ul>
 
         
       </section>

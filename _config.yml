@@ -279,7 +279,6 @@ collections:
     output: true
     permalink: /:collection/:path/
     
-collections:
   react:
     output: true
     permalink: /:collection/:path/
@@ -296,9 +295,8 @@ defaults:
       read_time: true
       comments: false # true
       share: true
-      related: true
-
-  # _portfolio
+      related: false
+  # _swift
   - scope:
       path: ""
       type: swift
@@ -306,8 +304,9 @@ defaults:
       layout: single
       author_profile: false
       share: true
-  
-  # _portfolio
+      read_time: true
+      
+  # _react
   - scope:
       path: ""
       type: react
@@ -315,3 +314,4 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      read_time: true
